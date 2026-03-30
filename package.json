@@ -1,0 +1,7 @@
+{
+  "private": true,
+  "name": "kickpush",
+  "devDependencies": {
+    "prettier": "^3.8.1"
+  }
+}
