@@ -1,6 +1,10 @@
 {
   "private": true,
   "name": "kickpush",
+  "type": "module",
+  "scripts": {
+    "app": "pnpm -F @kickpush/app"
+  },
   "devDependencies": {
     "prettier": "^3.8.1"
   }

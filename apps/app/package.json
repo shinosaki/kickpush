@@ -1,6 +1,11 @@
 {
   "private": true,
   "name": "@kickpush/app",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "types": "wrangler types"
+  },
   "dependencies": {
     "hono": "^4.12.9"
   },

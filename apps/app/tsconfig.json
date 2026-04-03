@@ -1,0 +1,26 @@
+{
+  "include": [
+    "src"
+  ],
+  "compilerOptions": {
+    "strict": true,
+    "noEmit": true,
+    "moduleResolution": "bundler",
+    "target": "ESNext",
+    "module": "ESNext",
+    "lib": [
+      "ESNext"
+    ],
+    "types": [
+      ""
+    ],
+    "paths": {
+      "@": [
+        "./src"
+      ],
+      "@/*": [
+        "./src/*"
+      ],
+    }
+  }
+}
