@@ -1,0 +1,23 @@
+{
+  "name": "kickpush",
+  "service": "base",
+  "dockerComposeFile": "compose.yaml",
+  "postCreateCommand": ".devcontainer/lifecycles/postCreate.sh",
+  "workspaceFolder": "/workspace",
+  "features": {
+    "ghcr.io/devcontainers/features/common-utils:2": {},
+    "ghcr.io/devcontainers/features/github-cli:1": {},
+    "ghcr.io/devcontainers/features/node:1": {
+      "version": "latest",
+      "pnpmVersion": "latest"
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "EditorConfig.EditorConfig",
+        "esbenp.prettier-vscode"
+      ]
+    }
+  }
+}

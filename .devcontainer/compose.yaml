@@ -1,0 +1,15 @@
+services:
+  base:
+    image: mcr.microsoft.com/devcontainers/base:debian
+    user: vscode
+    init: true
+    tty: true
+    stdin_open: true
+    volumes:
+      - ..:/workspace:delegated
+      - pnpm-store:/workspace/.pnpm-store:delegated
+      - node-modules:/workspace/node_modules:delegated
+
+volumes:
+  pnpm-store:
+  node-modules:
